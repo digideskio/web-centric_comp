@@ -167,11 +167,11 @@ Constraints:
 
 #### Linting ####
 
-A linter is a tool developed to flag non-portable programming constructs or those which do not adhere to the 
-Generally by means of static source code analysis
-Benefiting from 
-It is a nifty tool when unsure whether all team members have read the official specification to the language it is built for.
-The linters we are to consider for our purposes are **CSSLint**, **JSLint** 
+A linter is a tool developed to flag non-portable programming constructs 
+or those which do not adhere to the language's semantics or philosophy, 
+generally by means of static source code analysis.  
+It is a tool which 
+The linters we are to consider for our purposes are **CSSLint**, **JSLint**  
 
 Constraints:
 - Client-side: *None*
@@ -189,6 +189,17 @@ Constraints:
 
 ### Markdown ###
 
-**Markdown** is a mark-up language intended 
-that CMS
+**Markdown** is a mark-up language intended for web-writing.
+It is intended to be as easy to write as it is easy to read.
+As such, it would be a nice addition to the website's CMS to 
+enable easy styling from the administrator.  
+Markdown's syntax can easily be converted to HTML by parsing it on 
+the server, thus adding no dependency of support by 
+rendering engines.  
 
+Constraints:
+- Client-side: *None*
+- Server-side: *None*
+
+
+### PHP ###
