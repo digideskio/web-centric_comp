@@ -70,12 +70,12 @@ The fact that info about the products of the shop is only available to
  
 
 
-Edd ltd, hereinafter referred to as “the client”  is an ex
+<!--- Edd ltd, hereinafter referred to as “the client”  is an ex
 
 The problems faced by edd ltd are typical of 
 With the advance of
 
-
+-->
 
 ## Attempt at a solution ##
 
@@ -89,28 +89,41 @@ web presence for the business in the view of identifying potential leads.
 ## Description of Proposed System ##
 
 The proposed system is centered around a website.  
-The latter would be host to information. 
- 
-Users would have the option to register to benefit from a personalised experience
-The solution would also feature an 
+The latter would be host to information about the business, be a 
+means of two-way communication with the business and enable users 
+to buy products of the business.  
+Users will have the option to register to benefit from a 
+personalised experience.  
+The solution will also feature a web-app that will only be 
+accessible the business's owner.  
+The web-app will be connected to the website's database and 
+consist of a dashboard which will, for instance, display the 
+description and of orders for the day and the business's stock.  
+It will also double as a Point-Of-Sales app to be used at the shop's 
+counter, replacing the current spreadsheet, such that sales 
+immediately update stock in the database. ...  
 
 
 ## Justification ##
 
-The client currently relies 
+The client currently relies on traditional means of advertising 
+such as business cards ...
 
-A website enables the business to tap into a certain demographic unattainable before: 
+A website enables the business to tap into a certain demographic 
+unattainable before: 
 that of the ever-growing user base of internet services.
-The 
+We postulate that an online presence for Epi de Dieu ltée would 
+help it gain an edge over its competitors in its field.  
 
-Streamlined workflow with less interruptions
-Increased productivity with employees aren’t required to answer phone calls etc.
-A web app has the advantage that it is easily , is consistently accessible from a range of devices 
+Streamlined workflow with less interruptions.  
+Increased productivity since employees aren’t required 
+to answer phone calls etc.
+A web-app has the advantage that it is easily scalable.  
+It also, is consistently accessible from a range of devices 
 
 An order portal produces direct revenue and measurable profit
-
-The solution that is recommended for the client is to create an online image 
-We postulate that an online image for Epi de Dieu ltée would be 
+ 
+ 
 
 
 
