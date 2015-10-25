@@ -1,0 +1,92 @@
+1.Hardware and software requirements of the proposed web platform
+2.Possible constraints
+3.Security issues
+
+(a) Hardwares :
+
+#Personal Computers or Laptops
+
+1. To code the website
+2. To see the results of the codes ( we can adjust to improve the webpages )
+3. For users to get access to the website
+
+#Intel Core I5 Processor
+
+1. Since Intel Core I5 is a powerful processor, processing is done at a very fast rate. 
+    Hence, we saves time and not get irritated by the delay of processing.
+
+#16GB RAM
+
+1. To ensure computer runs quickly and smoothly
+2. To support software and large files
+3. To manage with pictures and videos
+
+
+#High-Speed Internet Connection
+
+1. To check if the online system is workimg effectively ( to make sure that the website is displaying correctly )
+2. To download materials needed for the website
+3. To post updtates on the website
+4. For users to get access to the web platform
+
+
+#Camera
+
+1. To take digital photos and videos of the Bakery & Pastry and its products 
+    to insert in the website
+
+
+#Smartphones
+
+1. To be able to modify the website
+2. For users to get access to the website 
+
+
+#Pendrives
+
+1. To back up data used for the website in case lost of the data
+
+
+
+
+(b) Softwares :
+
+#Windows 7
+
+1. The flexibility of Windows 7 gives users the ability to run almost any software that is Windows compatible.
+2. This operating system is most commonly used nowadays.
+
+
+#Notepad ++
+
+1. This text editor  is very easy to use.
+2. If ever there is a syntax error, it automatically indicates the user by changing the codes' colour.
+
+
+#Google Chrome
+
+1. A suitable web browser to display the hypertext and hypermedia.
+
+
+#Easyphp
+
+1. The web server will allow us to host the website.
+
+
+#MySQL database server
+
+1. To allow us to keep our data in a database.
+2. To connect data entered in webpages to data in the database.
+
+
+#Avast Anti-Virus
+
+1.We need an anti-virus software to protect the computer and its contents against viruses. 
+
+
+
+ 
+
+
+
+
