@@ -122,8 +122,8 @@ A web-app has the advantage that it is easily scalable.
 It also, is consistently accessible from a range of devices 
 
 An order portal produces direct revenue and measurable profit
- 
- 
+
+
 
 
 
@@ -137,54 +137,54 @@ An order portal produces direct revenue and measurable profit
 
 The steps to build the solution are
 
-Building a styling CSS framework to support the site’s 
+Building a styling CSS framework to support the site’s styling.
 
-Below is a rundown of the technologies to be 
+Below is a non-exhaustive rundown of the main technologies to be considered 
+when developping the solution. The constraints 
 
 
-#### HTML5 and CSS3 ####
+
+
+### HTML5 and CSS3 ###
 
 The website's and web-app's front-end will be built using **HTML** as markup
-language and **CSS** as style sheet language.  
-It will be developped adhering the latest W3C specifications of the
+language, and **CSS** as style sheet language.  
+
+It will be developped adhering to the latest W3C specifications of the
 HyperText Markup Language's and Cascading StyleSheets' syntax and semantics,
-namely, **HTML5** and **CSS3**.
+namely, **HTML5** and **CSS3**. Those specifications
+
 
 Constraints:
 - Client-side: *Requires an HTML5 compliant user-agent*
-- Server-side: *None*
+- Server-side: *Requires an HTTP Server*
 
-#### CSS Preprocessing ####
 
-A CSS preprocessor injects constructs from programming languages into CSS scripting.
-It is a great consideration when seeking to build a CSS framework.
-Preprocessing CSS *cascades* (pun intended) no dependencies down to the clien or server
-infrastructure since it compiles to scripts in pure CSS3.
+### JavaScript ###
+
+
 
 Constraints:
-- Client-side: *None*
+- Client-side: *Requires a user-agent featuring a JavaScript engine*
 - Server-side: *None*
 
-#### Linting ####
+### AJAX / AJAJ ###
 
-A linter is a tool developed to flag non-portable programming constructs 
-or those which do not adhere to the language's semantics or philosophy, 
-generally by means of static source code analysis.  
-It is a tool which 
-The linters we are to consider for our purposes are **CSSLint**, **JSLint**  
-
-Constraints:
-- Client-side: *None*
-- Server-side: *None*
-
-### AJAX ###
-
-*Asynchronous JavaScript and XML* (**AJAX**) is a methodology employing user-generated events handling, 
-data retrieval and DOM manipulation to 
-Using raw AJAX calls creates no dependency (on javascript libraries for instance).
+*Asynchronous JavaScript and XML* (**AJAX**) is a methodology employing 
+handling of user-generated events, data retrieval and DOM manipulation to the 
+ends of dynamically adding or modifying the page's content.  
+This increases a web page's interactivity, speed and usability.  
+The procedure provides the advantage that its server requests are 
+*non-blocking* in nature (requests do not interrupt interaction with the page) 
+and do not require reloading an entire page to display new content which is 
+dependent upon the user's actions.
+In the AJAJ variant, data is transported strictly in **JSON** instead of 
+**XML** or plain-text in AJAX.  
+Using raw AJAX/AJAJ calls creates no dependency (on javascript libraries for 
+instance).  
 
 Constraints:
-- Client-side: *A browser sporting a JavaScript engine*
+- Client-side: *A user-agent adhering to the XMLHttpRequest Object Standards*
 - Server-side: *None*
 
 ### Markdown ###
@@ -199,7 +199,115 @@ rendering engines.
 
 Constraints:
 - Client-side: *None*
+- Server-side: *Requires parsing and conversion to HTML*
+
+
+Server Side Technologies  
+
+
+### Apache HTTP Server ###
+
+
+### PHP Hypertext Preprocessor ### 
+
+
+### RDBMS ###
+
+
+Development-Oriented Technologies
+
+### Source Code Editor ###
+
+
+
+### CSS Preprocessor ###
+
+A CSS preprocessor is an interpreter or compiler that dynamically interprets 
+or precompiles a scripting language to CSS. It aims to extend the CSS 
+language by injecting constructs - such as variables, functions, inheritance, 
+and mixins - from programming languages (particularly Object-Oriented ones) 
+into CSS scripting; such that the latter's WET *(Write Everything Twice)* 
+static rules are dropped in favour of clean DRY *(don't repeat yourself)* 
+code.
+
+Preprocessors are invaluable tools for building CSS frameworks for their 
+philosophy promote themability (global changes), maintainability, and 
+extensibility.  
+
+Lastly, considering the compiled version of **SASS** and **LESS** 
+preprocessors, it should be noted that:
+1. Pure CSS is already valid SasScript and LesScript.
+2. Preprocessing CSS *cascades* (pun intended) no dependency down to the 
+client or server infrastructure since it compiles to scripts in pure CSS3.  
+
+Constraints:
+- Client-side: *None*
+- Server-side: *None*
+
+### Linting ###
+
+A linter is a tool developed to flag non-portable programming constructs 
+or those which do not adhere to the language's semantics or philosophy, 
+generally by means of static source code analysis.  
+It is a tool which 
+The linters we are to consider for our purposes are **CSSLint**, **JSLint**  
+
+Constraints:
+- Client-side: *None*
 - Server-side: *None*
 
 
-### PHP ###
+ 
+
+
+
+
+<br />
+
+
+
+## Requirements of the Web platform ##
+
+Based on the above analysis of the different techologies to be implemented, 
+it is possible to produce a set of specifications outlining the requirements 
+of the website's host environment.  
+
+### Hardware Requirements ##
+
+Statistics of concurent Mauritian users of a website. Expected Load.  
+
+
+**Processing Power**  
+
+
+
+**Random-Access Memory**
+
+
+**Disk-Access Latency**
+
+An aspect of the server's Hard-Drive which might act as bottleneck if not 
+optimised is disk-access latency.  
+For that reason, Solid-State Disks are preferred to Hard-Disk Drives as 
+storage media on the server.  
+
+**Bandwidth**  
+
+
+### Software Requirements ###
+
+**Operating System**
+**Apache Installation**
+**php.exe**
+**RDBMS**
+
+## Hardware Implementation ##
+
+For the website to be accessible on the internet, the files making it up 
+need to *sit* on a host server - essentially an always on pc *hardwired* 
+(not really) to the internet.  
+
+
+
+Registering a domain name is 
+
