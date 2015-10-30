@@ -168,6 +168,8 @@ Constraints:
 - Client-side: *Requires a user-agent featuring a JavaScript engine*
 - Server-side: *None*
 
+Performance Note:  
+
 ### AJAX / AJAJ ###
 
 *Asynchronous JavaScript and XML* (**AJAX**) is a methodology employing 
@@ -186,6 +188,8 @@ instance).
 Constraints:
 - Client-side: *A user-agent adhering to the XMLHttpRequest Object Standards*
 - Server-side: *None*
+
+Performance Note:  
 
 ### Markdown ###
 
@@ -212,6 +216,9 @@ Server Side Technologies
 
 
 ### RDBMS ###
+
+
+
 
 
 Development-Oriented Technologies
@@ -272,6 +279,8 @@ Based on the above analysis of the different techologies to be implemented,
 it is possible to produce a set of specifications outlining the requirements 
 of the website's host environment.  
 
+
+
 ### Hardware Requirements ##
 
 Statistics of concurent Mauritian users of a website. Expected Load.  
@@ -294,12 +303,30 @@ storage media on the server.
 **Bandwidth**  
 
 
+
 ### Software Requirements ###
 
 **Operating System**
 **Apache Installation**
 **php.exe**
 **RDBMS**
+
+
+### Constraints ###
+
+
+
+### Performance Considerations ###
+
+Benchmarking v/s Stats  
+The software to be used for the application as well as its supporting 
+hardware was chosen with  
+
+
+### Security Issues ###
+
+
+
 
 ## Hardware Implementation ##
 
