@@ -360,6 +360,8 @@ infrastructure, applying patches, taking necessary measures if
 suspicious activity is found logged. This can not be left to 
 the client
 
+<img src="selfhost.jpg" />
+
 
 **2. ISP web-hosting services**
 
