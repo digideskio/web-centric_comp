@@ -325,16 +325,58 @@ hardware was chosen with
 
 ### Security Issues ###
 
-
+Backing up
+Security of Transactions
 
 
 ## Hardware Implementation ##
 
 For the website to be accessible on the internet, the files making it up 
 need to *sit* on a host server - essentially an always on pc *hardwired* 
-(not really) to the internet.  
+to the internet.  
+That host pc can then be accessed through the IP address assigned to 
+it by a Local Internet Registry (usually an ISP) and the files located 
+to access the website.  
+But the optimal solution is to register a meaningful Domain Name -
+through a Domain Name Registrar - which will link to the website and be 
+used to access it.  
 
 
+The options to consider for a hosting solution are:  
 
-Registering a domain name is 
+**1. Configuring the client's PC as a server**
+
+>Pros: 
+>- Flexibility to implement your own tools and technologies and 
+change the former without incurred cost.  
+
+>Cons:
+>- Speed at which users get served content is limited by the connection's 
+upload speed, which is very low
+>- The server needs to stay on all day, everyday; resulting in much 
+energy wastage, even more important considering the idle time 
+>- A server needs maintenance such as updating the software 
+infrastructure, applying patches, taking necessary measures if 
+suspicious activity is found logged. This can not be left to 
+the client
+
+
+**2. ISP web-hosting services**
+
+>Pros:
+>- Has high-speed connection to the internet so the site vistitor's 
+download speed is actually the limiting factor 
+>- Offers a very high degree of uptime and reliability 
+>- Has a secure operating environment
+
+**3. Cloud web-hosting services**
+
+>Pros:
+>- *All of the above*  
+>+
+>- Much more cost-effective than ISP hosting solutions.
+
+ 
+
+
 
