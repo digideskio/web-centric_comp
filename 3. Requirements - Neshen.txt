@@ -2,6 +2,8 @@
 2.Possible constraints
 3.Security issues
 
+
+1.Hardware and software requirements of the proposed web platform
 (a) Hardwares :
 
 #Personal Computers or Laptops
@@ -85,8 +87,41 @@
 
 
 
+
+
+2. Constraints
+
+#Browser
+Not all  browsers render code similarly. Therefore, we have to make sure that the webpages are displayed in a standard way in every browser. 
+
+-Different browsing environment handle zoom diffenrently ; some enlarge images as text is enlarged, and other times enlarging txt doesn't affect other page elements. We can create a unique page design for full sized and mobile sites. In that way, we will have maximum control over how pages look in different environment.
+
+
+
+
+
+
+
+
+3. Security Issues
+
+(a) Since we are working online, viruses can easily destroy our data or cause crashing of our hardwares.
+    Therefore, the anti-virus software Avast will be installed to secure them.
+
+(b) Our data for the development and the correct functionning of the website should always be safe. Any physical 
+     accident can cause lost of data. Hence, to be on the safe side, we'll back up the all data in a pendrive.
+
+(c) Users will be doing online transaction with their bank account and personal data like credit number will be entered.
+    Hence, we'll ensure a genuine and professional privacy to their data. Sensitive data will be encrypted. 
+
+
+
+
+
  
 
 
+4. Performance
 
+The hardwares and softwares are well-chosen to be used to ensure an excellent performance of the web development process and the website functioning. 
 
