@@ -372,12 +372,15 @@ To this intent:
 1. The server should always be free of malware
 >An up-to-date anti-malware system must be up and running on 
 the server
+
 2. Security of transactions should be ensured
 >Monetary transactions (i.e.: placing orders...) shall be 
 delegated through appropriate APIs to secure online payment 
 gateway services, such as the ones provided by the *Mauritius 
 Commercial Bank* or *paypal.com*
+
 3. User information shall be appropriately encrypted prior to storage 
+
 4. Attempts of intrusion should be detected and terminated
 >Attempts at connections to other open ports on the server shall be 
 prevented by setting up a firewall on the server.  
